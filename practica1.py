@@ -128,4 +128,3 @@ def main():
 if __name__ == '__main__':
     main()
     
-#me falta ver cómo añadir los elementos de modo que realmente sea en orden creciente.
