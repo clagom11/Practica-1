@@ -84,7 +84,7 @@ def merge(storage, proceso, index, empty, non_empty, mutex, lista):
         index.value = pos #para guardar el elemento que añadamos (más adelante, en add_data) en la posición que ha quedado vacía.
         p = proceso[pos] #para averiguar a qué proceso pertenece 
         print("Elemento añadido: ", minimo ,", perteneciente al proceso: " , p , '\n') 
-        storage[pos] = -2 
+        storage[pos] = -2 #se ha consumido el elemento mínimo y se queda vacío 
         lista.append((minimo,p))
         print(lista)
         
